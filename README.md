@@ -14,13 +14,14 @@
 
 ### Field Centric
 | Port    | Device Type | Name in Config | 
-| -------- | ------- | -------- 
+| -------- | ------- | -------- |
 | 0 |  Front Left Motor | `frontLeft` |
 | 1 |  Front Right Motor | `frontRight` |
 | 2 |  Back Left Motor | `backLeft` |
 | 3 |  Back Right Motor | `backRight` |
 | N/A |  Rev Internal IMU | `imu` |
-*IMU is in I2C Bus 0"
+
+*IMU is in I2C Bus 0*
 
 ## Strafing Info
 ### Robot Centric
