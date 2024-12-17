@@ -21,7 +21,7 @@
 | 3 |  Back Right Motor | `backRight` |
 | N/A |  Rev Internal IMU | `imu` |
 
-*IMU is in I2C Bus 0*
+*IMU is in `I2C Bus 0`*
 
 ## Strafing Info
 ### Robot Centric
