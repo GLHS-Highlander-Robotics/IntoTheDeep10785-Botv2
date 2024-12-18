@@ -1,7 +1,7 @@
 # Strafing Code
 ## Introduction
 - All code used is from: https://gm0.org/en/latest/docs/software/tutorials/mecanum-drive.html
-- There are **TWO** different types of drive programmed in `straf-drive`. See the table in #strafing-info for more details.
+- There are **TWO** different types of drive programmed in `strafe-drive`. See the table in #strafing-info for more details.
 ## Initialization 
 **NOTE: ALL MOTORS ARE KNOWN AS "GENERIC MOTOR"**
 ### Robot Centric
