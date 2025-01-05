@@ -30,7 +30,7 @@
 |-----------------|--------------------|
 | `left_stick_y`  | Forward-Backward   |
 | `left_stick_x`  | Left-Right         |
-| `right_stick_y` | ______________     |
+| `right_stick_y` | Currently Unused   |
 | `right_stick_x` | Rotation           |
 | `dpad_up`       | Forward 40% power  |
 | `dpad_down`     | Backward 40% power |
