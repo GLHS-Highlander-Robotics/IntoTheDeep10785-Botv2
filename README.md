@@ -30,25 +30,44 @@
 |-----------------|--------------------|
 | `left_stick_y`  | Forward-Backward   |
 | `left_stick_x`  | Left-Right         |
-| `right_stick_y` | Currently Unused   |
+| `right_stick_y` | *Unbound*          |
 | `right_stick_x` | Rotation           |
-| `dpad_up`       | Forward 40% power  |
-| `dpad_down`     | Backward 40% power |
-| `dpad_left`     | Left 40% power     |
-| `dpad_right`    | Right 40% power    |
+| `dpad_up`       | Forward 30% power  |
+| `dpad_down`     | Backward 30% power |
+| `dpad_left`     | Left 30% power     |
+| `dpad_right`    | Right 30% power    |
+| `left_trigger`  | *Unbound*          |
+| `right_trigger` | *Unbound*          |
+| `left_bumper`   | *Unbound*          |
+| `right_bumper`  | *Unbound*          |
+| `x`             | *Unbound*          |
+| `y`             | *Unbound*          |
+| `b`             | *Unbound*          |
+| `a`             | *Unbound*          |
+| `back`          | *Unbound*          |
+| `start`         | *Unbound*          |
 
 ### Field Centric
-| Gamepad input    | Output             |
-|------------------|--------------------| 
-| `left_stick_y`   | Forward-Backward   |
-| `left_stick_x`   | Left-Right         |
-| `right_stick_y`  | Currently Unused     |
-| `right_stick_x`  | Rotation           |
-| `dpad_up`        | Forward 40% power  |
-| `dpad_down`      | Backward 40% power |
-| `dpad_left`      | Left 40% power     |
-| `dpad_right`     | Right 40% power    |
-| `x`              | Reset Orientation  |
+| Gamepad input   | Output             |
+|-----------------|--------------------| 
+| `left_stick_y`  | Forward-Backward   |
+| `left_stick_x`  | Left-Right         |
+| `right_stick_y` | *Unbound*          |
+| `right_stick_x` | Rotation           |
+| `dpad_up`       | Forward 30% power  |
+| `dpad_down`     | Backward 30% power |
+| `dpad_left`     | Left 30% power     |
+| `dpad_right`    | Right 30% power    |
+| `left_trigger`  | *Unbound*          |
+| `right_trigger` | *Unbound*          |
+| `left_bumper`   | *Unbound*          |
+| `right_bumper`  | *Unbound*          |
+| `x`             | Reset Orientation  |
+| `y`             | *Unbound*          |
+| `b`             | *Unbound*          |
+| `a`             | *Unbound*          |
+| `back`          | *Unbound*          |
+| `start`         | *Unbound*          |
 
 ## Telemetry
 - Definition: Collection/measurement, transmission and display of data.
@@ -56,7 +75,7 @@
 - Telemetry displays newest entries first.
 - When initialized, telemetry set to have max amount of lines displayed.
 - The number of lines each part of telemetry uses is recorded below.
-**Ensure that number of lines generated does not exceed maximum set**
+  **Ensure that number of lines generated does not exceed maximum set**
 ### Robot Centric Implementation
 - Data from joysticks x2
 - Data from dpad x1

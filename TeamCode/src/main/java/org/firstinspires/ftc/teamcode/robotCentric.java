@@ -58,18 +58,18 @@ public class robotCentric extends LinearOpMode {
                     .addData("y", gamepad1.right_stick_y);
 
             // Precision Mode, uses dpad to control x / y axis
-            // When dpad pressed, sets to 40% power or 0.4/1
+            // When dpad pressed, sets to 30% power or 0.3/1
             if (gamepad1.dpad_up) {
-                drive_LSy = 0.4;
+                drive_LSy = 0.3;
             }
             if (gamepad1.dpad_down) {
-                drive_LSy = -0.4;
+                drive_LSy = -0.3;
             }
             if (gamepad1.dpad_left) {
-                strafe_LSx = -0.4;
+                strafe_LSx = -0.3;
             }
             if (gamepad1.dpad_right) {
-                strafe_LSx = 0.4;
+                strafe_LSx = 0.3;
             }
 
             //Displays data from dpad
