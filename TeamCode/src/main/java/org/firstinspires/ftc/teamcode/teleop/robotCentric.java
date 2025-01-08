@@ -1,15 +1,13 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.teleop;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
-import com.qualcomm.robotcore.hardware.VoltageSensor; // Used for Battery Voltage
-import com.qualcomm.robotcore.util.ElapsedTime; // Used to measure time
-import org.firstinspires.ftc.robotcore.external.Func;
+
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 
-@TeleOp
+@TeleOp(name = "Robot Centric", group = "Teleop")
 public class robotCentric extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
@@ -18,6 +16,12 @@ public class robotCentric extends LinearOpMode {
         DcMotor backLeftMotor = hardwareMap.dcMotor.get("backLeft");
         DcMotor frontRightMotor = hardwareMap.dcMotor.get("frontRight");
         DcMotor backRightMotor = hardwareMap.dcMotor.get("backRight");
+
+        // Has motors brake when not in use
+        frontLeftMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        backLeftMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        frontRightMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        backRightMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
 
         // Enables Encoder Drive
         frontRightMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
