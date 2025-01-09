@@ -1,7 +1,20 @@
+# Introduction
+*This repository is in a very early stage of development.* 
+*This `README.md` may not be appropriately updated to account for recent changes. Please update appropriately if you notice an issue*
+- This repository contains the code for version 2 of team 10785's IntoTheDeep robot.
+## Contents
+- Currently, the only functioning code present in this repository enables robot-centric and field-centric driving
+- Code enabling linear slide operation is currently in very early development
+
+## Future Additions
+- Converting currently used LinearOpMode to OpMode
+- PID drive
+  - Determining position
+  - Using position to make autonomous drivetrain path
+
 # Strafing Code
 ## Introduction
 - Initial code used is from: https://gm0.org/en/latest/docs/software/tutorials/mecanum-drive.html
-- There are **TWO** different types of drive programmed in `strafe-drive`. See the table in #strafing-info for more details.
 ## Initialization
 **NOTE: ALL MOTORS ARE KNOWN AS "GoBILDA 5202/3/4 series"**
 

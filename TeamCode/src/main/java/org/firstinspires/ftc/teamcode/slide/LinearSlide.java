@@ -1,8 +1,6 @@
-package org.firstinspires.ftc.teamcode.Slide;
+package org.firstinspires.ftc.teamcode.slide;
 
-import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
-import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 
@@ -10,7 +8,11 @@ public class LinearSlide {
 
     // Slide power parameters
 
+
     // Slide height parameters
+    public static double powerMin;
+    public static double power;
+    public static double powerMax;
 
     // Sets up motors
     public DcMotorEx slideMotorL;
